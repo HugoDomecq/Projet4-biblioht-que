@@ -1,4 +1,5 @@
 /* Common style */
+
 .grid {
 	margin: 40px auto 120px;
 	max-width: 1000px;
@@ -96,7 +97,7 @@
 }
 
 .grid svg path {
-	fill: #fff;
+	fill: #E0E0E0;
 }
 
 /* Hover effects */
