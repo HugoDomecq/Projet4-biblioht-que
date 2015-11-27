@@ -25,7 +25,7 @@ a, button {
 }
 
 a {
-	color: #000000;
+	color: #001eff;
 	text-decoration: none;
 }
 
@@ -132,8 +132,8 @@ a:hover, a:focus {
 .codrops-demos a:hover,
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover {
-	border-color: #333;
-	color: #333;
+	border-color: #001eff;
+	color: #001eff;
 }
 
 .related {
