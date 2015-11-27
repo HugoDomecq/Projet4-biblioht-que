@@ -1,4 +1,18 @@
 /* Common style */
+.demo-3 body {
+	background: #FFFFFF;
+}
+
+.codrops-header h1 {
+	padding-left: 200px;
+		padding-right: 200px;
+}
+
+.codrops-header span {
+	padding-left: 500px;
+		padding-right: 500px;
+}
+
 
 .grid {
 	margin: 40px auto 120px;
@@ -116,15 +130,13 @@
 }
 
 /* Individual styles */
-.demo-1 body {
-	background: #3498db;
-}
+
 
 .demo-1 .grid figure button,
 .demo-3 .grid figure button {
 	top: 50%;
 	left: 50%;
-	border: 3px solid #fff;
+	border: 2px solid #FFF;
 	background: transparent;
 	color: #fff;
 	opacity: 0;
@@ -139,67 +151,6 @@
 	transform: translateY(-50%) translateX(-50%) scale(1);
 }
 
-.demo-2 body {
-	background: #e74c3c;
-}
-
-.demo-2 .grid figcaption h2 {
-	color: #e74c3c;
-}
-
-.demo-2 .grid figcaption p {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-}
-
-.demo-2 .grid figure button {
-	bottom: 0;
-	left: 0;
-	padding: 15px;
-	width: 100%;
-	background: #fff;
-	color: #333;
-	font-weight: 300;
-	-webkit-transform: translateY(100%);
-	transform: translateY(100%);
-}
-
-.demo-2 .grid a:hover figure button {
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
-}
-
-.demo-2 .grid figcaption h2, 
-.demo-2 .grid figcaption p,
-.demo-3 .grid figcaption h2,
-.demo-3 .grid figcaption p {
-	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1); /* older webkit */
-	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
-	timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
-}
-
-.demo-2 .grid a:hover figcaption p,
-.demo-3 .grid a:hover figcaption p {
-	-webkit-transition-delay: 0s;
-	transition-delay: 0s;
-	-webkit-transition-duration: 0.1s;
-	transition-duration: 0.1s;
-}
-
-.demo-3 body {
-	background: #FFFFFF;
-}
-
-.demo-3 .grid figcaption h2 {
-	color: #001eff;
-}
-
-.demo-3 .grid a:hover figcaption h2 {
-	-webkit-transform: translateY(5px);
-	transform: translateY(5px);
-}
 
 /* Media Queries */
 /* Let's redefine the width of each anchor and the margins */
@@ -241,23 +192,3 @@
 		-webkit-transform: translateY(30px);
 		transform: translateY(30px);
 	}
-
-	.grid figcaption p {
-		margin: 0;
-		padding: 0 10px;
-	}
-}
-
-@media screen and (max-width: 27em) {
-	.grid {
-		max-width: 250px;
-	}
-
-	.grid a {
-		width: 100%;
-	}
-
-	.grid a:nth-child(even) {
-		margin: 0;
-	}
-}
