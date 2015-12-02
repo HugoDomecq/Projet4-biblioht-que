@@ -3,14 +3,9 @@
 	background: #FFFFFF;
 }
 
-.codrops-header h1 {
+h1 {
 	padding-left: 200px;
-		padding-right: 200px;
-}
-
-.codrops-header span {
-	padding-left: 500px;
-		padding-right: 500px;
+	padding-right: 200px;
 }
 
 
@@ -115,6 +110,12 @@
 }
 
 /* Hover effects */
+
+.grid figure:hover {
+
+}
+	
+	
 .grid a:hover figure img {
 	opacity: 1;
 }
