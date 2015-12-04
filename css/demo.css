@@ -18,6 +18,7 @@ p {
 	margin-right: 200px;
 	text-align: justify;
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.8;
 }
 
 .clearfix:before, .clearfix:after {

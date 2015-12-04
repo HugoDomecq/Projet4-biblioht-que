@@ -201,5 +201,5 @@ h1 {
 /* Content chap 1 */
 
 p {
-	color: blue;
+	justify-content: space-around; 
 }
