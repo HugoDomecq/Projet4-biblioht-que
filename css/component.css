@@ -71,7 +71,7 @@ h1 {
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
 	font-family: 'Roboto', sans-serif;
-	margin-top : 10px;
+	margin : 10px;
 }
 
 .grid figcaption h2,
