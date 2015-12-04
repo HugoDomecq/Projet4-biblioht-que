@@ -196,3 +196,10 @@ h1 {
 		-webkit-transform: translateY(30px);
 		transform: translateY(30px);
 	}
+	
+
+/* Content chap 1 */
+
+p {
+	color: blue;
+}
