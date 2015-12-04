@@ -196,10 +196,9 @@ h1 {
 		-webkit-transform: translateY(30px);
 		transform: translateY(30px);
 	}
-	
+}	
+/*-- project specific styles */
 
-/* Content chap 1 */
-
-p {
-	justify-content: space-around; 
+section {
+	border : 1px solid red;
 }
