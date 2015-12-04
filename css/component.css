@@ -4,8 +4,8 @@
 }
 
 h1 {
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 270px;
+	padding-right: 270px;
 }
 
 
@@ -57,18 +57,21 @@ h1 {
 	color: #001FFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 130%;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
+	font-family: 'PT Serif', serif;
 }
 
 .grid figcaption p {
-	padding: 0 20px;
+	padding: 0 40px;
 	color: #001FFF;
-	font-weight: 300;
+	font-weight: 400;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
+	font-family: 'Roboto', sans-serif;
+	margin-top : 10px;
 }
 
 .grid figcaption h2,
