@@ -71,7 +71,8 @@ h1 {
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
 	font-family: 'Roboto', sans-serif;
-	margin : 10px;
+	margin :32px;
+	text-align: center;
 }
 
 .grid figcaption h2,
@@ -130,7 +131,7 @@ h1 {
 }
 
 .grid a:hover figcaption p {
-	opacity: 0;
+	color: #fff;
 }
 
 /* Individual styles */
@@ -199,6 +200,19 @@ h1 {
 }	
 /*-- project specific styles */
 
-section {
-	border : 1px solid red;
+h1 {
+	color: #001FFF;
+	text-align:center;
+	font-family: 'PT Serif', serif;
+}
+
+p {
+	margin-left: 330px;
+	margin-right: 330px;
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	
+	text-align:center;
 }
