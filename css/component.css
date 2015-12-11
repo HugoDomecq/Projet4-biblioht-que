@@ -7,8 +7,8 @@
 }
 
 h1 {
-	padding-left: 270px;
-	padding-right: 270px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 
@@ -60,22 +60,28 @@ h1 {
 	color: #001FFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 130%;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
-	font-family: 'PT Serif', serif;
 }
 
 .grid figcaption p {
+<<<<<<< Updated upstream
 	padding: 0 10px;
+=======
+	padding: 0 20px;
+>>>>>>> Stashed changes
 	color: #001FFF;
-	font-weight: 400;
+	font-weight: 300;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
+<<<<<<< Updated upstream
 	font-family: 'Roboto', sans-serif;
 	margin :30px;
 	text-align: center;
+=======
+>>>>>>> Stashed changes
 }
 
 .grid figcaption h2,
@@ -215,6 +221,10 @@ p {
 	font-family: 'Roboto', sans-serif;
 	
 	
+}
+
+.flotte {
+float:left;
 }
 
 #picto { display: block;
