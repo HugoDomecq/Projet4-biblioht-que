@@ -66,21 +66,20 @@ h1 {
 }
 
 .grid figcaption p {
-<<<<<<< Updated upstream
+
 	padding: 0 10px;
-=======
+
 	padding: 0 20px;
->>>>>>> Stashed changes
+
 	color: #001FFF;
 	font-weight: 300;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
-<<<<<<< Updated upstream
+
 	font-family: 'Roboto', sans-serif;
 	margin :30px;
 	text-align: center;
-=======
->>>>>>> Stashed changes
+
 }
 
 .grid figcaption h2,
