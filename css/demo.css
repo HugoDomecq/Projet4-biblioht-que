@@ -40,12 +40,12 @@ p {
 
 .codrops-header h1 span {
 	display: block;
-	padding: 0 0 0.6em 0.1em;
 	font-size: 20px;
 	text-transform: lowercase;
 	font-style: italic;
 	font-weight: 400;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* To Navigation Style */
@@ -98,18 +98,13 @@ p {
 /* Demo Buttons Style */
 
 .boutons a {
-	font-family: 'Roboto', sans-serif;
 	display: inline-block;
 	margin: 4px;
 	padding: 1em 1em;
 	outline: none;
-	border: 2px solid #001eff;
+	border: 3px solid #001eff;
 	color: #001eff;
-	text-decoration: none;
-	text-transform: lowercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	font-size: 0.8em;
+
 }
 
 .related {
