@@ -235,7 +235,9 @@ float:left;
     margin-bottom: 100px;}
     
 
-    
+#picto :hover{"img/fleche-hover.jpg";}
+
+   
 
 #p {text-indent: 50px;}
 
